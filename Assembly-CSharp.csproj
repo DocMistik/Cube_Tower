@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E62B1C3E-5ED7-58CB-A404-7B71C41F2AB9}</ProjectGuid>
+    <ProjectGuid>{478B9756-BF21-CDA0-0B94-3ADF390A73E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,11 +53,12 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Camera_Shake.cs" />
     <Compile Include="Assets\Scripts\Explosion_of_cubes.cs" />
     <Compile Include="Assets\Scripts\Canvas_Button.cs" />
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Game_Controller.cs" />
-    <Compile Include="Assets\Scripts\Camera_Shake.cs" />
+    <Compile Include="Assets\Scripts\IsEnebled.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />

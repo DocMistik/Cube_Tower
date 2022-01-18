@@ -31,6 +31,23 @@ public class Canvas_Button : MonoBehaviour
 
         Application.OpenURL("https://rt.pornhub.com/");
     }
+    public void LoadShop() 
+    {
+        if (PlayerPrefs.GetString("music") != "OFF")
+            GetComponent<AudioSource>().Play();
+
+        SceneManager.LoadScene("Shop");
+        
+    }
+    public void CloseShop()
+    {
+        if (PlayerPrefs.GetString("music") != "OFF")
+            GetComponent<AudioSource>().Play();
+
+        SceneManager.LoadScene("Main");
+
+    }
+
     public void MusicWork()
     {
         if (PlayerPrefs.GetString("music") == "OFF") //Музыка выключена.Надо включить
