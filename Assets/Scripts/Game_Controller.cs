@@ -306,7 +306,7 @@ public class Game_Controller : MonoBehaviour
     }
     private void AddPosibleCubes(int till)
     {
-        for (int i = 0; till < 3; i++)
+        for (int i = 0; i < till; i++)//dd
             posiblerCubesToCreate.Add(cubesToCreate[i]);
     }
     struct CubePos //структура овечает за хранение координат какого-либо объекта (1)
